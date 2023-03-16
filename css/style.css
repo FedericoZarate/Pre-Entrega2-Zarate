@@ -5,24 +5,71 @@
 }
 
 header {
-  background-color: #f3ebcc;
+  background-color: white;
   padding: 0.5rem 0;
   top: 0;
   z-index: 2;
 }
 
-img {
-  max-width: 100%;
+body {
+  font-family: "Noto Serif", serif;
+}
+
+section h3 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .container {
-  width: 80%;
-  margin: 0% auto;
-  max-width: 1320px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.logo {
+.card {
+  width: 250px;
+  margin: 10px;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-body {
+  text-align: center;
+  font-size: 22px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.card-footer button {
+  width: 150px;
+  background: black;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 6px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.card-footer button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
 }
 
 .imagenes-iconos-usuario img {
@@ -31,48 +78,8 @@ img {
   align-items: center;
 }
 
-body {
-  font-family: "Noto Serif", serif;
-}
-
 .nav {
   text-align: center;
-}
-
-.nav__list {
-  list-style: none;
-}
-
-.nav__item {
-  margin-left: 1.5rem;
-}
-
-.nav__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #b4b49a;
-}
-
-.card {
-  text-align: center;
-  align-content: end;
-}
-
-#intro-section {
-  background-color: #ffffff;
-  padding-top: 8rem;
-}
-
-.display-2--intro {
-  text-align: center;
-  color: #b4b49a;
-  font-size: 1.5rem;
-  text-decoration: none;
-  padding-bottom: 1.5rem;
-}
-
-.footers {
-  background-color: #d8a7be;
 }
 
 .footer-sm a {
@@ -89,6 +96,7 @@ body {
   text-align: center;
   padding-top: 2rem;
   margin-left: 1rem;
+  font-size: 20px;
 }
 
 .F {
@@ -96,4 +104,13 @@ body {
   text-align: center;
   font-size: 0.8rem;
   padding: 1rem;
+}
+
+.catalogo-img img {
+  transform: translateY(-3%);
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+  flex-wrap: wrap;
+  margin: 10px;
 }
