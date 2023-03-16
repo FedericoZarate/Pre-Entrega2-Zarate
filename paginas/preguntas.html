@@ -91,34 +91,138 @@
       </nav>
     </header>
     <section>
-      <fieldset>
-        <h3>Preguntas mas Frecuetnes</h3>
-      </fieldset>
+      <main class="vh-100 d-flex align-items-center">
+        <section class="h-75 container-sm mx.-auto">
+          <h3 class="fs-5 text-primary text-center py-3">
+            Preguntas mas Frecuetnes
+          </h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <!-- titulo  -->
+              <h2 class="accordion-header" id="headingOne">
+                <!-- boton -->
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <h6>¿Cual es la compra minima?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                No exite una compra minima.
+                <div class="accordion-body"></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <h6>¿Realizan facturas?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                En caso de necesitar facura comunicarse via mail con nosotros.
+                <div class="accordion-body"></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <h6>¿Adonde realizan envios?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                Los envios se realizan dentro de todo el pais.
+                <div class="accordion-body"></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  <h6>¿En cuanto tiempo llega mi pedido?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                Surtimos pedidos de 3 dias habiles hasta 2 semanas, dependiendo
+                de la cantidad solicitada del pedido y la joyeria en stock.
 
-      <p>
-        ¿Cual es la compra minima?<br />
-        No exitr una compra minima.
-      </p>
-      <p>
-        ¿Realizan facturas?<br />
-        En caso de necesitar facura comunicarse via mail con nosotros.
-      </p>
-      <p>
-        ¿Adonde realizan envios?<br />Los envios se realizan dentro de todo el
-        pais.
-      </p>
-      <p>
-        ¿En cuanto tiempo llega mi pedido?<br />
-        Surtimos pedidos de 3 dias habiles hasta 2 semanas, dependiendo de la
-        cantidad solicitada del pedido y la joyeria en stock.
-      </p>
-      <p>
-        ¿Se realizan cambios?<br />
-        <strong>Nota Importante</strong> Cada una de las piezas es revisada
-        detalladamente antes de realizarce el envio, para asegurar la calidad de
-        las joyas asi evitar devoluciones. En caso de recibir una pieza en mal
-        estado se debe notificar inmediatamente al N°...}
-      </p>
+                <div class="accordion-body"></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  <h6>¿Se realizan cambios?</h6>
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample"
+              >
+                <strong>Nota Importante</strong> Cada una de las piezas es
+                revisada detalladamente antes de realizarce el envio, para
+                asegurar la calidad de las joyas asi evitar devoluciones. En
+                caso de recibir una pieza en mal estado se debe notificar
+                inmediatamente al N°...
+                <div class="accordion-body"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </section>
     <footer class="footer">
       <div class="footer-sm">
