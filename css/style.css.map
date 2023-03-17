@@ -1,13 +1,1 @@
-{
-  "version": 3,
-  "sourceRoot": "",
-  "sources": [
-    "../scss/_body.scss",
-    "../scss/_card.scss",
-    "../scss/_footer.scss",
-    "../scss/_header.scss"
-  ],
-  "names": [],
-  "mappings": "AAAA;EACE;EACA;EACA;;;AAGF;EACE;;AACA;EACE;;AAEF;EACE;EACA;EACA;;;AAGJ;EACE;EACA;EACA;;;ACpBF;EACE;EACA;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAEF;EACE;EACA;;AAGF;EACE;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;;AAGJ;EACE;EACA;;;AC3CJ;EACE;EACA;EACA;;AAEA;EACE;EACA;;;AAIJ;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;ACtBF;EACE;EACA;EACA;EACA",
-  "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/_body.scss","../scss/_card.scss","../scss/_footer.scss","../scss/_header.scss","../scss/_reset.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE;;AACA;EACE;;AAEF;EACE;EACA;EACA;;;AAGJ;EACE;EACA;EACA;;;ACpBF;EACE;EACA;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAEF;EACE;EACA;;AAGF;EACE;EACA;EACA;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEF;EACE;EACA;EACA;;AAGJ;EACE;EACA;;;AC3CJ;EACE;EACA;EACA;;AAEA;EACE;EACA;;;AAIJ;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;ACtBF;EACE;EACA;EACA;EACA;;;ACJF;EACE;EACA;EACA","file":"style.css"}
