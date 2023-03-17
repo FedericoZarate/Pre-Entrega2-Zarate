@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  .nav {
+    text-align: center;
+  }
+  .imagenes-iconos-usuario img {
+    padding: 1rem;
+    margin-top: 1.5rem;
+    align-items: center;
+  }
+}
+section h3 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
